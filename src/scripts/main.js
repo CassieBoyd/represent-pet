@@ -8,5 +8,17 @@
 const Autumn = {
     species: "cat",
     nicknames: ["Bottom", "Autumn, Autumn, stinky bottom"],
-    age: 17
+    age: 17,
+    meow: () => {
+        console.log("meow")
+    },
+    purr: () => {
+        console.log("purr")
+    },
+    hiss: () => {
+        window.alert("hiss")
+    }
 }
+Autumn.meow()
+Autumn.purr()
+Autumn.hiss()
